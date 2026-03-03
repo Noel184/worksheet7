@@ -17,20 +17,20 @@ export class TrainerService {
       items:['Mystic Water', 'None', 'Gyaradosite']
     },
     {
-  name:'Brock',
-  team:['Onix', 'Geodude'],
-  items:['Hard Stone', 'Potion']
-},
-{
-  name:'Cynthia',
-  team:['Garchomp', 'Lucario'],
-  items:['Dragon Fang', 'Lucarionite']
-},
-{
-  name:'Leon',
-  team:['Charizard', 'Dragapult'],
-  items:['Charizardite X', 'Max Revive']
-},
+      name:'Brock',
+      team:['Onix', 'Geodude'],
+      items:['Hard Stone', 'Potion']
+    },
+    {
+      name:'Cynthia',
+      team:['Garchomp', 'Lucario'],
+      items:['Dragon Fang', 'Lucarionite']
+    },
+    {
+      name:'Leon',
+      team:['Charizard', 'Dragapult'],
+      items:['Charizardite X', 'Max Revive']
+    },
   ]);
   trainers = this.registry.asReadonly();
 }
